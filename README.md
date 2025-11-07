@@ -1,6 +1,6 @@
 # Bigdata_2025-2
 
-## Trabajo relaizado por Juan David Ramírez García
+## Trabajo realizado por Juan David Ramírez García
 
 ## IUDigital de Antioquia
 

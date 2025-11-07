@@ -1,11 +1,15 @@
 # Bigdata_2025-2
 
+## Trabajo relaizado por Juan David Ramírez García
+
+## IUDigital de Antioquia
+
 ## Evidencia de aprendizaje 1: Creación de una base de datos analítica
 
 Esta evidencia de aprendizaje tiene como objetivo diseñar y construir una base de datos analítica a partir de una fuente de datos consultada en Kaggle.
 Para este ejercicio se escogieron datos relacionados con pacientes que han sufrido cáncer de pulmón, como tipo de tratamiento que han recibido, historial médico y demográfico.
 
-**Problemática** : El cáncer de pulmón es la principal causa de muerte por cáncer del mundo, con más diagnósticos y personas fallecidas anualmente. Afecta principalmente a poblaciones vulnerables como los fumadores, ex fumadores, diabéticos y personas mayores de 70 años. Asimismo, como familiares de enfermos y los sistemas de salud que tienen una gran carga financiera en la lucha contra la enfermedad. Por lo tanto, el análisis de este problema es vital para encontrar factores y tendencias que puedan ayudar a detectar esta enfermedad en una fase temprana, ya que su detención tardía es la causa fundamental de su mortalidad.
+**Problemática** : El cáncer de pulmón es la principal causa de muerte por cáncer del mundo, con más diagnósticos y personas fallecidas anualmente. Afecta principalmente a poblaciones vulnerables como los fumadores, exfumadores, diabéticos y personas mayores de 70 años. Asimismo, como familiares de enfermos y los sistemas de salud que tienen una gran carga financiera en la lucha contra la enfermedad. Por lo tanto, el análisis de este problema es vital para encontrar factores y tendencias que puedan ayudar a detectar esta enfermedad en una fase temprana, ya que su detención tardía es la causa fundamental de su mortalidad.
 
 Dataset: Este dataset fue organizado y construido para propósitos educativos y no como una herramienta de predicción de cáncer de pulmón. La idea es poder encontrar patrones y tendencias en los pacientes, y su evolución en los tratamientos aplicados que faciliten un diagnóstico temprano de esta problemática mediante modelos de machine learning y análisis exploratorio de datos.
 

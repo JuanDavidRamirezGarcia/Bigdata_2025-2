@@ -2,6 +2,8 @@
 
 ## Trabajo realizado por Juan David Ramírez García
 
+## Grupo_9: Trabajo individual
+
 ## IUDigital de Antioquia
 
 ## Evidencia de aprendizaje 1: Creación de una base de datos analítica

@@ -70,3 +70,54 @@ Por ejemplo, al dividir una tabla grande en varias tablas relacionadas, se evita
   
 ## Evidencia de aprendizaje 2: procesamiento de datos en una infraestructura cloud
 
+## Antecedentes de la evidencia de aprendizaje 2
+
+Se ha venido trabajando con un conjunto de datos consultado en Kaggle sobre pacientes que padecen cáncer de pulmón y que participan en un tratamiento contra la enfermedad. En la primera actividad se construyó una base de datos analítica usando herramientas como Spark para todo el proceso de carga de datos, creación de tablas y limpieza de la información.
+
+Para esta segunda evidencia de aprendizaje, la idea es replicar el mismo proceso, pero ahora desde la nube utilizando sentencias SQL y empleando Databricks como herramienta principal. Esto incluye la creación del esquema necesario y todos los componentes que permitan ejecutar el flujo completo de procesamiento.
+
+## Objetivo de la actividad
+
+Para esta segunda evidencia de aprendizaje, la idea es replicar el mismo proceso, pero ahora desde la nube utilizando sentencias SQL y empleando Databricks como herramienta principal. Esto incluye la creación del esquema necesario y todos los componentes que permitan ejecutar el flujo completo de procesamiento.
+
+## Estructura y desarrollo de la actividad
+
+El desarrollo de la actividad de desarrollo en estos paso:
+
+1. Diseño de esquema en el que se almaceno los datos
+2. Configuración y documentación del enterno de trabajo en Databricks
+3. Creación del ctatalogo, esquemas y tablas con SQL
+4. Validación de cosnultas: Metadatos, descripción ,select y Group By
+5. Análisis de ventajas y desventajas entre SQL Y SPARK
+
+## Herramientas utilizadas
+
+* Databricks Notebooks: actividad_2..ipynb
+* SQL: para la creación de catálogo, esquemas y tablas
+* Draw.io y dbdiagram.io: para realizar el esquema de la arquitecura
+* GitHub para la gestión del código y documentación.
+
+## ventajas y desventajas
+
+## Tabla Comparativa
+
+| Propósito | SQL  | Propósito | Spark |
+|----------------------------|----------------------|-----------------------------|----------------------------------|
+| Facilidad de uso           | SQL es más fácil de usar porque todo es declarativo y directo, y tiene una lógica más sencilla. | Escalabilidad | Noto que Spark tiene una mayor capacidad para trabajar con grandes volúmenes de datos distribuidos. |
+| Expresividad declarativa   | Me parece que SQL permite expresar consultas complejas con pocas líneas y la sintaxis es más sencilla. | APIs ricas (DataFrame/RDD)       |  Spark es muy versátil gen cuanto a sus APIs, que permiten transformaciones avanzadas. |
+| Integración con BI         | Considero que SQL se integra mucho mejor con herramientas de BI tradicionales. | UDFs y funciones personalizadas  | Siento que Spark facilita mucho más el uso de UDFs en Python para lógica compleja. |
+| Limitaciones en pipelines  | En mi experiencia, SQL se queda corto cuando necesito pipelines muy complejos. | MLlib | Veo que Spark es una herramienta fuerte para el trabajo con modelos de ML, en cambio, SQL su fuerte es organizar información de manera lógica. |
+| Limitaciones con UDFs      | Percibo que las UDFs en SQL dependen demasiado del motor y pueden ser restrictivas. | Curva de aprendizaje y tuning | creo que la curva de aprendizaje en spark es mucho más inclinada por las múltiples funcionalidades e integraciones que la herramienta posee. |
+
+
+## Conclusiones:
+
+* A través de la actividad se logró comprender mejor cómo replicar un flujo completo de procesamiento de datos usando únicamente SQL en un entorno en la nube, evidenciando las diferencias y similitudes respecto al proceso realizado previamente con Spark.
+
+* Se pudo validar la importancia de definir un esquema de almacenamiento adecuado en Databricks, ya que esto facilita la organización, consulta y manejo del dataset Lung_cancer dentro de un entorno distribuido.
+
+* Trabajar con SQL en Databricks permite mantener un enfoque declarativo y estructurado, lo cual hace más sencillo interpretar y verificar cada etapa del procesamiento, especialmente en tareas como creación de tablas, limpieza y validación de datos.
+
+* La actividad permitió reforzar los conceptos sobre la arquitectura y las herramientas necesarias para desplegar un flujo analítico en la nube, destacando la importancia de combinar buena planificación del esquema con la ejecución correcta de las sentencias SQL.
+
+* Finalmente, al comparar el uso de Spark con SQL durante este ejercicio, pude identificar que Spark ofrece mayor flexibilidad y potencia para procesar grandes volúmenes de datos y construir pipelines complejos , mientras que SQL aporta claridad y simplicidad en la definición del procesamiento. Esta comparación me permitió entender cómo ambas herramientas se complementan y cuándo resulta más conveniente utilizar cada una según las necesidades del análisis.

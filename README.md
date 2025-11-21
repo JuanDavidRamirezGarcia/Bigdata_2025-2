@@ -90,9 +90,14 @@ El desarrollo de la actividad se realizó en estos paso:
 4. Validación de cosnultas: Metadatos, descripción ,select y Group By
 5. Análisis de ventajas y desventajas entre SQL Y SPARK
 
+**Estructura**
+
+* En la carpeta docs/ se encuentra el esquema de almacenamiento de datos esquema.drawio
+*  En la carpeta src/bigdata/ se cargo el notebook de la segundo actividad realizado en Databricks Actividad_2.ipynb
+
 ## Herramientas utilizadas
 
-* Databricks Notebooks: actividad_2..ipynb
+* Databricks Notebooks: actividad_2.ipynb
 * SQL: para la creación de catálogo, esquemas y tablas
 * Draw.io y dbdiagram.io: para realizar el esquema de la arquitecura
 * GitHub para la gestión del código y documentación.
@@ -118,6 +123,6 @@ El desarrollo de la actividad se realizó en estos paso:
 
 * Trabajar con SQL en Databricks permite mantener un enfoque declarativo y estructurado, lo cual hace más sencillo interpretar y verificar cada etapa del procesamiento, especialmente en tareas como creación de tablas, limpieza y validación de datos.
 
-* La actividad permitió reforzar los conceptos sobre la arquitectura y las herramientas necesarias para desplegar un flujo analítico en la nube, destacando la importancia de combinar buena planificación del esquema con la ejecución correcta de las sentencias SQL.
+* La actividad permitió reforzar los conceptos de arquitectura y las herramientas necesarias para desplegar un flujo analítico en la nube, destacando la importancia de combinar una buena planificación del esquema con la ejecución adecuada de las sentencias SQL.
 
 * Finalmente, al comparar el uso de Spark con SQL durante este ejercicio, pude identificar que Spark ofrece mayor flexibilidad y potencia para procesar grandes volúmenes de datos y construir pipelines complejos , mientras que SQL aporta claridad y simplicidad en la definición del procesamiento. Esta comparación me permitió entender cómo ambas herramientas se complementan y cuándo resulta más conveniente utilizar cada una según las necesidades del análisis.

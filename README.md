@@ -68,5 +68,5 @@ Por ejemplo, al dividir una tabla grande en varias tablas relacionadas, se evita
 * El uso de Databricks permitió ejecutar y probar consultas en un entorno de análisis en la nube.
 * El uso de GitHub facilitó el trabajo colaborativo, el control de versiones y la trazabilidad de cada fase del proyecto.
   
-
+## Evidencia de aprendizaje 2: procesamiento de datos en una infraestructura cloud
 

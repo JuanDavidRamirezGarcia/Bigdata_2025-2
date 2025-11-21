@@ -82,7 +82,7 @@ Para esta segunda evidencia de aprendizaje, la idea es replicar el mismo proceso
 
 ## Estructura y desarrollo de la actividad
 
-El desarrollo de la actividad de desarrollo en estos paso:
+El desarrollo de la actividad se realizó en estos paso:
 
 1. Diseño de esquema en el que se almaceno los datos
 2. Configuración y documentación del enterno de trabajo en Databricks

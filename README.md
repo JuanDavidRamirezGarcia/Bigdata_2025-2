@@ -141,7 +141,7 @@ En mi caso el data set de pacientes diagnosticados con cáncer de pulmón. Asimi
 ### Enlace del video: 
 https://youtu.be/NHIEr-0LWNY
 
-## Guón de la explicación del video: 
+## Guión de la explicación del video: 
 
 1. **Transformaciones de Fecha :** Del módulo de funciones de Pyspark llamado F se transformó de tipo String a Date las columnas “giagnosis_date” y “end_treatment” de la tabla Historial, usando la instrucción `F.to_date()`. Asimismo, de estas columnas se calcularon nuevas columnas como el año, mes y día de diagnóstico y de fin de tratamiento con las instrucciones: `F.year, F.month y F.day of month`.
 

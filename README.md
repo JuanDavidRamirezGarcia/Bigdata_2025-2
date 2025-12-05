@@ -126,3 +126,35 @@ El desarrollo de la actividad se realizó en estos paso:
 * La actividad permitió reforzar los conceptos de arquitectura y las herramientas necesarias para desplegar un flujo analítico en la nube, destacando la importancia de combinar una buena planificación del esquema con la ejecución adecuada de las sentencias SQL.
 
 * Finalmente, al comparar el uso de Spark con SQL durante este ejercicio, pude identificar que Spark ofrece mayor flexibilidad y potencia para procesar grandes volúmenes de datos y construir pipelines complejos , mientras que SQL aporta claridad y simplicidad en la definición del procesamiento. Esta comparación me permitió entender cómo ambas herramientas se complementan y cuándo resulta más conveniente utilizar cada una según las necesidades del análisis.
+
+## Evidencia de aprendizaje 3: proyecto integrador
+
+## Objetivo de la actividad
+
+Poner en práctica las técnicas de limpieza y transformación de datos con herramientas como Spark o SQL en el conjunto de datos que hemos estado trabajando durante todo el curso
+En mi caso el data set de pacientes diagnosticados con cáncer de pulmón. Asimismo, visualizar aspectos importantes de nuestros datos con librerías como Matplotlib y Seaborn, además implementar técnicas de buenas prácticas cuando trabajamos con datos en Databricks.
+
+## Nuevos archivos
+* Actividad_3_JuanDaRamirez: donde se desarrolló todo el código y puntos del proyecto integrador.
+* Video_proyecto_integrador: donde se explicó y se sustentó lo realizado en la actividad.
+
+### Enlace del video: 
+https://youtu.be/NHIEr-0LWNY
+
+## Guón de la explicación del video: 
+
+1. **Transformaciones de Fecha :** Del módulo de funciones de Pyspark llamado F se transformó de tipo String a Date las columnas “giagnosis_date” y “end_treatment” de la tabla Historial, usando la instrucción `F.to_date()`. Asimismo, de estas columnas se calcularon nuevas columnas como el año, mes y día de diagnóstico y de fin de tratamiento con las instrucciones: `F.year, F.month y F.day of month`.
+
+2. **Resumen mensual :** Con el módulo de funciones creamos dos tablas para mostrar el resumen de pacientes diagnosticados y que terminaron el tratamiento. Se calcularon nuevas columnas como el número de pacientes diagnosticados y número de pacientes que terminaron el tratamiento mensualmente, usando `F.count`; el promedio de niveles de colesterol con `F.avg` y número de pacientes en estadio IV de cáncer a la hora del diagnóstico y al terminar el tratamiento.
+
+3. **Limpieza antes y después :** De la tabla pacientes y usando el módulo de funciones se hizo limpieza de datos como borrar espacios al inicio y al final, y convertir letras mayúsculas a minúsculas de la columna smoking_status con instrucciones `F.lower` y `F.trim`. Asimismo, de datos nulos y negativos de la variable Edad con condicionales e instrucciones como: 
+`(F.col("age").isNull()) | (F.col("age") < 0)`.
+
+
+**Visualizaciónes**
+ 
+4. Se usó la librería **Matplotlib** para visualizar cómo se distribuyen los tipos de fumadores en el año de su diagnóstico a través de un gráfico de barras usando la instrucción .plot(kind=bar,…)
+
+5.	Se usó la librería **Seaborn** para visualizar el estado del paciente al finalizar el tratamiento con el método `sns.barplot()`.
+
+  
